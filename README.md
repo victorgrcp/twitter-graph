@@ -16,4 +16,5 @@ Imagen de un grafo obtenido con el programa al cual se le han aplicado algoritmo
 - el color de los nodos: rosa (usuari no verificado), verde (usuario verificado)
 - el tamaño de los nodes en función del nombre de followers
 ![image](https://user-images.githubusercontent.com/81804797/157102671-ac0d57f1-e776-4dc1-be7b-e5a659104522.png)
+
 (visualización realizada mediante Gephi)
