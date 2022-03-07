@@ -10,7 +10,7 @@ import pickle
 import sys
 
 #### AÑADIR LAS CREDENCIALES DE TWITTER PARA PODER EJECUTAR EL PROGRAMA #####
-'''
+
 API_KEY = ""
 API_SECRET_KEY = ""
 ACCESS_TOKEN = ""
@@ -24,10 +24,10 @@ auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET_TOKEN)
 
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
-# User desde el que se quiere iniciar el grafo
+# Nombre de la cuenta de twitter desde la que se quiere iniciar el grafo
 user = ""
 seed_node = api.get_user( user )
-'''
+
 
 def loadGraph(file_name):
     '''
